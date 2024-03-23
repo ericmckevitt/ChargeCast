@@ -23,6 +23,8 @@ public class SurchargeController {
         return surchargeService.getSurcharge(grade);
     }
 
-    @GetMapping("/")
-    public String getAllSurcharges(){return surchargeService.getAllSurcharges();}
+    @GetMapping("")
+    public String getAllSurcharges() {
+        return surchargeService.getAllSurcharges();
+    }
 }
