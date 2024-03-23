@@ -19,10 +19,10 @@ public class SurchargeController {
     }
 
     @GetMapping("/{grade}")
-    public String getGrade(@PathVariable String grade) {
-        return surchargeService.getGrade(grade);
+    public String getSurcharge(@PathVariable String grade) {
+        return surchargeService.getSurcharge(grade);
     }
 
     @GetMapping("/")
-    public String getAllGrades(){return surchargeService.getAllGrades();}
+    public String getAllSurcharges(){return surchargeService.getAllSurcharges();}
 }

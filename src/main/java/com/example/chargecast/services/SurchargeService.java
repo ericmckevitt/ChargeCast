@@ -4,11 +4,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SurchargeService {
-    public String getGrade(String grade) {
+    public String getSurcharge(String grade) {
         return  "Service says Grade: " + grade;
     }
 
-    public String getAllGrades() {
+    public String getAllSurcharges() {
         return "Service says here's all the grades";
     }
 }
